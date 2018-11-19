@@ -1,0 +1,451 @@
+body {
+  font-family: 'Philosopher', 'Helvetica', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  height: 4rem;
+  width: 100%;
+  color: #fff;
+  background-color: rgb(63,70,88);
+  text-transform: uppercase;
+}
+
+.logo {
+  padding-left: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo img {
+  height: 2rem;
+}
+
+.logo-text span {
+  font-weight: bold;
+  color: #ffb100;
+}
+
+nav ul {
+  padding-right: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+}
+
+nav a:hover {
+  color:#ffb100;
+}
+
+a {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ff5722;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #ffb100;
+}
+
+.mobile {
+  display: none;
+}
+
+header {
+  background-color: #f2f2f2;
+  display: block;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+header img {
+  max-width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+h1 {
+  font-size: 2 rem;
+  color: rgb(63, 70, 88);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.main-banner p {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffb100;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 0.5rem 3rem;
+}
+
+.btn:hover {
+  color: #ffb100;
+  background-color: rgb(63, 70, 88);
+}
+
+#info {
+  display: flex;
+}
+
+.info-main {
+  max-width: 60%;
+  margin: 2rem, 1.5rem;
+}
+
+.info-main img {
+  max-width: 100%;
+  height: auto;
+}
+
+#info h2 {
+  margin: 2rem 0 1.5rem 0;
+}
+
+h2 {
+  font-size: 1.25rem;
+  color: rgb(63, 70, 88);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#info .quote {
+  margin: 1.5rem 0 0.5rem 0;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#info-secondary {
+  padding-top: 1rem;
+  border-left: 1px solid #f2f2f2;
+}
+
+.info-card {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.info-card:hover {
+  background-color: #f2f2f2;
+}
+
+.info-card img {
+  max-width: 35%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+h3 {
+  font-size: 1rem;
+  color: rgb(63, 70, 88);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#courses {
+  background-color: #f2f2f2;
+  padding: 2rem 0;
+}
+
+#courses h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#courses .courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 3rem;
+}
+
+.course-card {
+  max-width: 30%;
+  background-color: #fff;
+  margin: 0.5rem;
+  transition: all 0.2s;
+}
+
+.course-card:hover {
+  background-color: #ffb100;
+}
+
+.course-card a {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #000;
+}
+
+.course-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.course-banner {
+  padding: 1rem;
+}
+
+.course-banner p {
+  margin: 0.5rem 0;
+}
+
+.course-banner h3 {
+  color: #ff5722;
+}
+
+#thesis {
+  padding: 2rem 0;
+}
+
+#thesis h2 {
+  text-align: center;
+}
+
+.thesis-info {
+  display: flex;
+}
+
+.info-main {
+  max-width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.info-main video {
+  max-width: 100%;
+  height: auto;
+}
+
+.info-main h3 {
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+#thesis .info-secondary {
+  border: none;
+}
+
+.info-secondary {
+  padding-top: 1rem;
+}
+
+.info-card {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.info-card img {
+  max-width: 35%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background-color: rgb(63, 70, 88);
+  color: #fff;
+}
+
+footer a {
+  margin: 0 0.5rem;
+  color: #fff;
+}
+
+@media only screen and (max-width:768px) {
+.mobile {
+  display: flex;
+  justify-content: space-around;
+}
+}
+
+@media only screen and (max-width:768px) {
+.logo {
+  padding: 0rem;
+}
+}
+
+@media only screen and (max-width:768px) {
+header .container {
+  flex-flow: column;
+}
+}
+
+@media only screen and (max-width:768px) {
+  header img {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width:768px) {
+#info .info-main {
+  display: none;
+}
+}
+
+@media only screen and (max-width:768px) {
+h2 {
+  font-size: 1.5rem;
+}
+}
+
+@media only screen and (max-width:768px) {
+#info .info-secondary {
+  border: none;
+  padding-top: 0;
+  margin: 0 auto;
+}
+}
+
+@media only screen and (max-width:768px) {
+#courses {
+  background-color: #fff;
+  border-top: 1px solid #f2f2f2;
+}
+}
+
+@media only screen and (max-width:768px) {
+#courses .courses {
+  flex-flow: column;
+  padding: 0 1rem;
+}
+}
+
+@media only screen and (max-width:768px) {
+.course-card {
+  max-width: 100%;
+  background-color: #f2f2f2;
+  margin: 0.5rem;
+}
+}
+
+@media only screen and (max-width:768px) {
+.course-card img {
+  display: none;
+}
+}
+
+@media only screen and (max-width:768px) {
+.course-banner p {
+  display: none;
+}
+}
+
+@media only screen and (max-width:768px) {
+#thesis {
+  border-top: 1px solid #f2f2f2;
+}
+}
+
+@media only screen and (max-width:768px) {
+#thesis .info-main {
+  max-width: 100%;
+  height: auto;
+  margin: 2rem 0 0 0;
+}
+}
+
+@media only screen and (max-width:768px) {
+#thesis .info-main p {
+  display: none;
+}
+}
+
+@media only screen and (max-width:768px) {
+#thesis .info-main h3 {
+  display: none;
+}
+}
+
+@media only screen and (max-width:768px) {
+#thesis .info-secondary {
+  display: none;
+}
+}
+
+@media only screen and (max-width:768px) {
+.info-secondary {
+  flex-flow: column;
+}
+}
+
+@media only screen and (max-width:768px) {
+.info-card {
+  flex-flow: column;
+  align-items: flex-start;
+}
+}
+
+@media only screen and (max-width:768px) {
+.info-card img {
+  margin: 0;
+}
+}
+
+@media only screen and (max-width:768px) {
+  .info-card .mobile {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width:768px) {
+.info-banner {
+  padding: 1rem;
+}
+}
+
+@media only screen and (max-width:768px) {
+footer span {
+  display: none;
+}
+}
+
+@media only screen and (max-width:768px) {
+.desktop {
+  display: none;
+}
+}
